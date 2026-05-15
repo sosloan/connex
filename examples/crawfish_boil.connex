@@ -1,0 +1,74 @@
+// Cajun Crawfish Boil - Parallel Stream Processing
+// Demonstrates Louisiana-themed emoji operations
+
+🎺 fn crawfish_boil() {
+    let pot_size = 8192
+    let pot = 🎈 pot_size
+    🔒 pot
+
+    let onions = 🐊 bayou_stream("onions")
+    let celery = 🐊 bayou_stream("celery")
+    let peppers = 🐊 bayou_stream("peppers")
+
+    🍲 {
+        🌶️ 🪞 onions -> pot
+        🌶️ 🪞 celery -> pot
+        🌶️ 🪞 peppers -> pot
+    }
+
+    🌊 {
+        🎉 🦞 crawfish_item in pot {
+            🎺 process(crawfish_item)
+            ⚜️ pure_season(crawfish_item)
+
+            🎷 {
+                ⏳ await cook_time
+                🔀 if is_done(crawfish_item) {
+                    📦 cooked_batch
+                }
+            }
+        }
+    }
+
+    🏝️ {
+        🎭 serve_table1()
+        🎭 serve_table2()
+        🎭 serve_table3()
+    }
+
+    🔓 pot
+    🎯 pot
+}
+
+⚜️ fn pure_season(crawfish: Crawfish) -> Crawfish {
+    return crawfish.add_seasoning()
+}
+
+🎺 fn broadcast_dinner_ready() {
+    🎉 {
+        📬 "Y'all come eat!"
+        🎷 play_jazz()
+    }
+}
+
+🎺 fn king_cake_token_ring() {
+    let ring_size = 16
+    let cake = 🎂 allocate_ring(ring_size)
+    🔁 {
+        let slice = 🎂 next(cake)
+        🔀 if has_baby(slice) {
+            🎉 celebrate()
+            ⏹️ break
+        }
+        ↪️ continue
+    }
+}
+
+🎺 fn make_gumbo() {
+    🍲 {
+        let proteins = [🦞, 🦐, 🐊]
+        let ingredients = [🌶️, 🥖, 🌴]
+        ⚜️ mix_with_roux(proteins, ingredients)
+        🎉 await perfect_consistency
+    }
+}
