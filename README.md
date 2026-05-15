@@ -16,7 +16,7 @@ The repository includes a cleaned example program at
 | `🔒` / `🔓` | lock / unlock a resource |
 | `🎯` | free a resource |
 | `🐊` | create a lazy bayou stream |
-| `🍲 { ... }` | combine streams or heterogeneous data |
+| `🍲 { ... }` | merge multiple inputs into a shared processing context |
 | `🌊 { ... }` | run the main pipeline flow |
 | `🎉 ... { ... }` | parallel or broadcast-style execution |
 | `🎷 { ... }` | adaptive execution block |

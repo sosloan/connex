@@ -7,7 +7,7 @@
 
     let onions = 🐊 bayou_stream("onions")
     let celery = 🐊 bayou_stream("celery")
-    let peppers = 🐊 bayou_stream("bell peppers")
+    let peppers = 🐊 bayou_stream("peppers")
 
     🍲 {
         🌶️ 🪞 onions -> pot
