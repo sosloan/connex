@@ -7,7 +7,7 @@
 
     let onions = 🐊 bayou_stream("onions")
     let celery = 🐊 bayou_stream("celery")
-    let peppers = 🐊 bayou_stream("bell_peppers")
+    let peppers = 🐊 bayou_stream("bell peppers")
 
     🍲 {
         🌶️ 🪞 onions -> pot
@@ -65,8 +65,8 @@ fn king_cake_token_ring() {
 fn make_gumbo() {
     🍲 {
         let proteins = [🦞, 🦐, 🐊]
-        let veggies = [🌶️, 🥖, 🌴]
-        ⚜️ mix_with_roux(proteins, veggies)
+        let ingredients = [🌶️, 🥖, 🌴]
+        ⚜️ mix_with_roux(proteins, ingredients)
         🎉 await perfect_consistency
     }
 }
