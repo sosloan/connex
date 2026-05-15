@@ -2,7 +2,8 @@
 // Demonstrates Louisiana-themed emoji operations
 
 🎺 fn crawfish_boil() {
-    let pot = 🎈 8192
+    let pot_size = 8192
+    let pot = 🎈 pot_size
     🔒 pot
 
     let onions = 🐊 bayou_stream("onions")
@@ -16,13 +17,13 @@
     }
 
     🌊 {
-        🎉 🦞 crawfish in pot {
-            🎺 process(crawfish)
-            ⚜️ pure_season(crawfish)
+        🎉 🦞 crawfish_item in pot {
+            🎺 process(crawfish_item)
+            ⚜️ pure_season(crawfish_item)
 
             🎷 {
                 ⏳ await cook_time
-                🔀 if is_done(crawfish) {
+                🔀 if is_done(crawfish_item) {
                     📦 cooked_batch
                 }
             }
@@ -51,7 +52,8 @@
 }
 
 fn king_cake_token_ring() {
-    let cake = 🎂 allocate_ring(16)
+    let ring_size = 16
+    let cake = 🎂 allocate_ring(ring_size)
     🔁 {
         let slice = 🎂 next(cake)
         🔀 if has_baby(slice) {
