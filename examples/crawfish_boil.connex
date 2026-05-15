@@ -51,7 +51,7 @@
     }
 }
 
-fn king_cake_token_ring() {
+🎺 fn king_cake_token_ring() {
     let ring_size = 16
     let cake = 🎂 allocate_ring(ring_size)
     🔁 {
@@ -64,7 +64,7 @@ fn king_cake_token_ring() {
     }
 }
 
-fn make_gumbo() {
+🎺 fn make_gumbo() {
     🍲 {
         let proteins = [🦞, 🦐, 🐊]
         let ingredients = [🌶️, 🥖, 🌴]
